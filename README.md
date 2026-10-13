@@ -1,7 +1,7 @@
 # Healthcare-Data-Analysis-and-Insights
 DATA CLEANING:-
 1) Check for the number of missing values marked with '?' in each column of the “Medical Examinations” Table and "Hospitalization Details" Table-Using filter we can check the number of ?in each coloumn 
-2) Fill in the missing values of ‘month’ with Sep and ‘year’ with its average rounded to the nearest integer- ? replaced by the month Sep using format function data trim and capitalize each word.
+2) Fill in the missing values of ‘month’ with Sep and ‘year’ with its average rounded to the nearest integer,replaced by the month Sep using format function data trim and capitalize each word,‘year’ with its average rounded to the nearest integer.
 3) Determine the most frequently occurring values in the ‘smoker’, 'Hospital tier' and 'City tier' columns, and fill in the missing values accordingly - using count if function checked the most frequent occured values in hispital tier column,smoker and city tier column and replaced ? using most frequent occured value.Using format function data trim,capitalize each word.
 4) If any 'State ID' values are missing, consider filling them with 'Unknown' or using another appropriate strategy-using Replace function ? are replaced by missing values,Using format function trim,Capitalize each word and clean.
    DATA TRANSFORMATION:-
@@ -20,7 +20,11 @@ Analysis using Pie/Donut Chart:
 1)	the distribution of cancer history among smokers and non-smokers-created a pivot table using smokers,cancer history and customer Id and insert doughnut daigram from ribbon (excel),Chart Design → Add Chart Element → Data Labels → Percentage.
 2)	the total number of major surgeries and average HbA1C differ between patients with and without a history of transplants?create pivot table using no of major surgeries,hba1c,no of transplant,after that create a doughnut diagram then put labels,colours, appropriately.
 Analysis using Column/Bar Chart:
- 1) healthcare charges vary based on different weight statuses and diabetes statuses prapared by craeting pivot table by charges,diabetes status and weight status after that insert bar chart from ribbon. put labels,colours, appropriately.
-2)compare the average charges for each hospital tier within different states -Create 
-
-
+ 3) healthcare charges vary based on different weight statuses and diabetes statuses prapared by craeting pivot table by charges,diabetes status and weight status after that insert bar chart from ribbon. put labels,colours, appropriately.
+4)compare the average charges for each hospital tier within different states -Create a pivot table using the data using charges(avg),state id and hospital tier.then insert -charts-bar chart
+5)compare the average charges for each hospital tier within different states-Create a pivot table using the data using charges(avg),state id and hospital tier.then insert -charts-bar chart
+Analysis using Line/Scatter Plot:
+6,7) create pivot table approriately summarize the given data using relavent rows and columns and insert -charts-scatter,give title apporiate labels and colours.
+Dashboard Creation:
+1)Ensure visual clarity and ease of interpretation for all chart types-a sheet that coloured with solid colour then add all diagram appropriately ,put a heading ,using diffrent colours to make the dashboard more attractive.
+2) select the diagam of diabetes and weight status and insert slicer from ribbon put columns and set their width and height appropriately.
